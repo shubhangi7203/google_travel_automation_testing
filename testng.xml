@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+	  <parameter name = "Url" value = "https://www.google.com/travel" />
+    <classes>
+		
+     <!--  
+      <class name="com.qa.testscripts.TC_GT_SearchFunctionality_InvalidData_002"/>
+      <class name="com.qa.testscripts.TC_GT_SearchFunctionality_ValidData_001"/>  
+      <class name="com.qa.testscripts.TC_GT_SearchFunctionality_Excel"/> 
+      
+      <class name="com.qa.testscripts.TC_GT_HotelsFunctionality_ValidData_001"/> 
+      <class name="com.qa.testscripts.TC_GT_HotelsFunctionality_Filters_001"/>
+      <class name="com.qa.testscripts.TC_GT_HotelsFunctionality_Filters_002"/>  
+       
+       <class name="com.qa.testscripts.TC_GT_ExploreFunctionality_ValidData_001"/>    
+       <class name="com.qa.testscripts.TC_GT_ExploreFunctionality_Location_002"/>    
+       <class name="com.qa.testscripts.TC_GT_ExploreFunctionality_DiscoverSingapore_001"/>  
+       
+       <class name="com.qa.testscripts.TC_Gooogle_Travel_011"/>
+       <class name="com.qa.testscripts.TC_Google_Travel_013"/>  
+       <class name="com.qa.testscripts.TC_Google_Travel_012"/>  
+       <class name="com.qa.testscripts.TC_Google_Travel_014"/>  
+       
+      <class name="com.qa.testscripts.TC_GT_FlightSearchFunctionality_ValidData_001"/> 
+      <class name="com.qa.testscripts.TC_GT_FlightFunctionality_Filters_001"/>
+      <class name="com.qa.testscripts.TC_GT_FlightFunctionality_FlightFilters_001"/>
+      <class name="com.qa.testscripts.TC_GT_FlightFunctionality_FlightFilters_002"/>
+      <class name="com.qa.testscripts.TC_GT_FlightFunctionality_FlightFilters_003"/>
+      <class name="com.qa.testscripts.TC_GT_FlightFunctionality_FlightFilters_004"/>
+      <class name="com.qa.testscripts.TC_GT_FlightFunctionality_FlightCheck_002"/>
+      <class name="com.qa.testscripts.TC_GT_FlightFunctionality_FlightBook_003"/>
+      
+      <class name="com.qa.testscripts.TC_GT_VacationRentals_Search_001"/>
+       
+       <class name="com.qa.testscripts.TC_GT_FlightFunctionality_Filters_001"/>  
+       
+      <class name="com.qa.testscripts.TC_GT_ExploreFunctionality_DiscoverSingapore_001"/>   -->
+     
+      <class name="com.qa.testscripts.TC_GT_SearchFunctionality_ValidData_001"/>  
+      
+      
+ 
+    </classes>
+    
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
